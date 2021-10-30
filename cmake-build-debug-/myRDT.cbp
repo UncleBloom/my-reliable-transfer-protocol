@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myRDT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wyz/temp/stopwait/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wyz/temp/stopwait/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myRDT">
+				<Option output="/home/wyz/temp/stopwait/bin/myRDT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyz/temp/stopwait/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wyz/temp/stopwait/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 myRDT"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myRDT/fast">
+				<Option output="/home/wyz/temp/stopwait/bin/myRDT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyz/temp/stopwait/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wyz/temp/stopwait/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 myRDT/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wyz/temp/stopwait/cmake-build-debug-"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wyz/temp/stopwait/cmake-build-debug-/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wyz/temp/stopwait/include/SRReceiver.h">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/include/SRSender.h">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/include/TCPReceiver.h">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/include/TCPSender.h">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/GBNReceiver.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/GBNSender.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/SRReceiver.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/SRSender.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/StopWaitRdtReceiver.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/StopWaitRdtSender.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/TCPReceiver.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/TCPSender.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/src/myRDT.cpp">
+			<Option target="myRDT"/>
+		</Unit>
+		<Unit filename="/home/wyz/temp/stopwait/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

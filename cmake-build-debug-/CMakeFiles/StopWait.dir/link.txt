@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/StopWait.dir/StopWait.cpp.o CMakeFiles/StopWait.dir/StopWaitRdtReceiver.cpp.o CMakeFiles/StopWait.dir/StopWaitRdtSender.cpp.o  -o StopWait 
