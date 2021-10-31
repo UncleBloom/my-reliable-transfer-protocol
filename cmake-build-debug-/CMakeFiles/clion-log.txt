@@ -1,4 +1,4 @@
-找不到 CMake 可执行文件: /usr/bin/cmake 配置 禁用配置文件
-
-无法获取编译器信息:
-	无法创建临时文件
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wyz/temp/stopwait
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/temp/stopwait/cmake-build-debug-

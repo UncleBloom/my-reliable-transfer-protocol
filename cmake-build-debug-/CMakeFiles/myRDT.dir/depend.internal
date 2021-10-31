@@ -61,6 +61,26 @@ CMakeFiles/myRDT.dir/src/StopWaitRdtSender.cpp.o
  /home/wyz/temp/stopwait/include/StopWaitRdtSender.h
  /home/wyz/temp/stopwait/include/Tool.h
  /home/wyz/temp/stopwait/src/StopWaitRdtSender.cpp
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o
+ ../include/DataStructure.h
+ ../include/Global.h
+ ../include/NetworkService.h
+ ../include/RandomEventEnum.h
+ ../include/RdtReceiver.h
+ ../include/RdtSender.h
+ ../include/TCPReceiver.h
+ ../include/Tool.h
+ /home/wyz/temp/stopwait/src/TCPReceiver.cpp
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o
+ ../include/DataStructure.h
+ ../include/Global.h
+ ../include/NetworkService.h
+ ../include/RandomEventEnum.h
+ ../include/RdtReceiver.h
+ ../include/RdtSender.h
+ ../include/TCPSender.h
+ ../include/Tool.h
+ /home/wyz/temp/stopwait/src/TCPSender.cpp
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o
  ../include/SRReceiver.h
  ../include/SRSender.h

@@ -52,6 +52,22 @@ RdtSender.h
 list
 -
 
+../include/TCPReceiver.h
+Global.h
+../include/Global.h
+RdtReceiver.h
+../include/RdtReceiver.h
+map
+-
+
+../include/TCPSender.h
+Global.h
+../include/Global.h
+RdtSender.h
+../include/RdtSender.h
+list
+-
+
 ../include/Tool.h
 DataStructure.h
 ../include/DataStructure.h
@@ -153,6 +169,14 @@ SRSender.h
 /home/wyz/temp/stopwait/include/StopWaitRdtSender.h
 ../include/Global.h
 /home/wyz/temp/stopwait/include/Global.h
+
+/home/wyz/temp/stopwait/src/TCPReceiver.cpp
+TCPReceiver.h
+-
+
+/home/wyz/temp/stopwait/src/TCPSender.cpp
+TCPSender.h
+-
 
 /home/wyz/temp/stopwait/src/myRDT.cpp
 ../include/GBNReceiver.h

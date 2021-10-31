@@ -1,7 +1,6 @@
 //
 // Created by 王一舟 on 2021/10/27.
 //
-#include <Global.h>
 #include <SRSender.h>
 
 bool inline SRSender::inWindow(int rcvSeqNum) const {

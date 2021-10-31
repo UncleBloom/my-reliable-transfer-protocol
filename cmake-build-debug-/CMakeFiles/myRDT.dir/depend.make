@@ -61,6 +61,26 @@ CMakeFiles/myRDT.dir/src/StopWaitRdtSender.cpp.o: ../include/StopWaitRdtSender.h
 CMakeFiles/myRDT.dir/src/StopWaitRdtSender.cpp.o: ../include/Tool.h
 CMakeFiles/myRDT.dir/src/StopWaitRdtSender.cpp.o: ../src/StopWaitRdtSender.cpp
 
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/DataStructure.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/Global.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/NetworkService.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/RandomEventEnum.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/RdtReceiver.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/RdtSender.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/TCPReceiver.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../include/Tool.h
+CMakeFiles/myRDT.dir/src/TCPReceiver.cpp.o: ../src/TCPReceiver.cpp
+
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/DataStructure.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/Global.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/NetworkService.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/RandomEventEnum.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/RdtReceiver.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/RdtSender.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/TCPSender.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/Tool.h
+CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../src/TCPSender.cpp
+
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/SRReceiver.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/SRSender.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/DataStructure.h

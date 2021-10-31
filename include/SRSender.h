@@ -6,6 +6,7 @@
 #define MYRDT_SRSENDER_H
 
 #include "RdtSender.h"
+#include "Global.h"
 #include <list>
 
 #define WINDOW_SIZE 6
@@ -23,7 +24,7 @@ private:
     int base;                                       //基序号
     int windowSize;                                 //窗口长度
     int nextSeqNum;                                 //下一个待发送包的序号
-    std::list<std::pair<int, Packet>> slidingWindow;//窗口内还未发送的包
+    std::list<std::pair<pktStatus, Packet>> slidingWindow;//窗口内还未发送的包
 
     bool inline inWindow(int rcvSeqNum) const;//接收到的确认号是否在窗口内
 
