@@ -6,6 +6,7 @@
 #define MYRDT_SRRECEIVER_H
 
 #include "RdtReceiver.h"
+#include "Global.h"
 #include <map>
 
 #define WINDOW_SIZE 6

@@ -56,7 +56,7 @@ void TCPSender::receive(const Packet &ackPkt) {
         //如果校验和正确，并且确认号在窗口内
         pUtils->printPacket("S-- RcvAck: ", ackPkt);
         pns->stopTimer(SENDER, this->base);
-        if (ackNum > base) {
+        if (ackNum >= base) {
             //确认号大于基序号则触发累计确认
             while (ackNum >= base) {
                 pUtils->printPacket(("$ Slid window from " + to_string(this->base) + ": ").data(), this->slidingWindow.front());
@@ -65,10 +65,10 @@ void TCPSender::receive(const Packet &ackPkt) {
             }
             lastAckTimes = 1;
             if (base != nextSeqNum) {
-                //如果窗口中有未发送包，则重新启动定时器
+                //如果窗口中有已发送包，则重新启动定时器
                 pns->startTimer(SENDER, Configuration::TIME_OUT, this->base);
             }
-        } else if (ackNum == base) {
+        } else if (ackNum == base-1) {
             //确认号等于基序号则记录确认次数
             lastAckTimes++;
             if (lastAckTimes >= 3) {

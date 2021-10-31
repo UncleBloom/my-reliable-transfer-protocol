@@ -2,7 +2,6 @@
 // Created by 王一舟 on 2021/10/27.
 //
 #include "../include/SRReceiver.h"
-#include "../include/Global.h"
 
 bool inline SRReceiver::inWindow(int rcvSeqNum) const {
     return rcvSeqNum >= base && rcvSeqNum <= (base + windowSize - 1);
@@ -23,7 +22,7 @@ void SRReceiver::receive(const Packet &packet) {
         i = '.';
     }
     ackPkt.checksum = pUtils->calculateCheckSum(ackPkt);
-    //如果校验和正确，同时收到报文的序号等于接收方期待收到的报文序号一致
+    //如果校验和正确，同时收到报文的序号在滑动窗口以内
     if (checkSum == packet.checksum && inWindow(seqNum)) {
         pUtils->printPacket("R-- receive: ", packet);//接收方正确收到发送方的报文
         pns->sendToNetworkLayer(SENDER, ackPkt);

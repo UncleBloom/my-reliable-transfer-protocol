@@ -10,8 +10,8 @@
 #include "../include/StopWaitRdtSender.h"
 #include <SRReceiver.h>
 #include <SRSender.h>
-//#include <TCPReceiver.h>
-//#include <TCPSender.h>
+#include <TCPReceiver.h>
+#include <TCPSender.h>
 
 int main(int argc, char *argv[]) {
     int type;
@@ -29,10 +29,10 @@ int main(int argc, char *argv[]) {
             ps = new SRSender;
             pr = new SRReceiver;
             break;
-/*        case 3:
+        case 3:
             ps = new TCPSender;
             pr = new TCPReceiver;
-            break;*/
+            break;
         case 0:
             ps = new StopWaitRdtSender();
             pr = new StopWaitRdtReceiver();
@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
             return 0;
     }
     //pns->setRunMode(0);//VERBOS模式
-    	pns->setRunMode(1);  //安静模式
+    pns->setRunMode(1);//安静模式
     pns->init();
     pns->setRtdSender(ps);
     pns->setRtdReceiver(pr);
