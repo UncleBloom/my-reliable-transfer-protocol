@@ -14,9 +14,12 @@
 #include <TCPSender.h>
 
 int main(int argc, char *argv[]) {
+
     int type;
     cout << "choose protocol type:\n1 for GBN\n2 for SR\n3 for TCP\n0 for StopWait\n";
     cin >> type;
+
+    freopen("../Console.txt", "w", stdout);
 
     RdtSender *ps = nullptr;
     RdtReceiver *pr = nullptr;

@@ -68,17 +68,17 @@ void TCPSender::receive(const Packet &ackPkt) {
                 //如果窗口中有已发送包，则重新启动定时器
                 pns->startTimer(SENDER, Configuration::TIME_OUT, this->base);
             }
-        } else if (ackNum == base-1) {
-            //确认号等于基序号则记录确认次数
-            lastAckTimes++;
-            if (lastAckTimes >= 3) {
-                //触发快速重传
-                pns->stopTimer(SENDER, this->base);
-                Packet packet = *slidingWindow.begin();
-                pUtils->printPacket("$ S-! quickResend pkt: ", packet);
-                pns->sendToNetworkLayer(RECEIVER, packet);
-                pns->startTimer(SENDER, Configuration::TIME_OUT, this->base);
-            }
+        }
+    } else if (ackNum == base - 1) {
+        //确认号等于基序号则记录确认次数
+        lastAckTimes++;
+        if (lastAckTimes >= 3) {
+            //触发快速重传
+            pns->stopTimer(SENDER, this->base);
+            Packet packet = *slidingWindow.begin();
+            pUtils->printPacket("$ S-! quickResend pkt: ", packet);
+            pns->sendToNetworkLayer(RECEIVER, packet);
+            pns->startTimer(SENDER, Configuration::TIME_OUT, this->base);
         }
     }
 }

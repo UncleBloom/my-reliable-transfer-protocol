@@ -43,12 +43,16 @@ DataStructure.h
 ../include/SRReceiver.h
 RdtReceiver.h
 ../include/RdtReceiver.h
+Global.h
+../include/Global.h
 map
 -
 
 ../include/SRSender.h
 RdtSender.h
 ../include/RdtSender.h
+Global.h
+../include/Global.h
 list
 -
 
@@ -119,6 +123,8 @@ DataStructure.h
 /home/wyz/temp/stopwait/include/SRReceiver.h
 RdtReceiver.h
 /home/wyz/temp/stopwait/include/RdtReceiver.h
+Global.h
+/home/wyz/temp/stopwait/include/Global.h
 map
 -
 
@@ -149,12 +155,8 @@ DataStructure.h
 /home/wyz/temp/stopwait/src/SRReceiver.cpp
 ../include/SRReceiver.h
 /home/wyz/temp/stopwait/include/SRReceiver.h
-../include/Global.h
-/home/wyz/temp/stopwait/include/Global.h
 
 /home/wyz/temp/stopwait/src/SRSender.cpp
-Global.h
--
 SRSender.h
 -
 
@@ -192,5 +194,9 @@ TCPSender.h
 SRReceiver.h
 -
 SRSender.h
+-
+TCPReceiver.h
+-
+TCPSender.h
 -
 

@@ -82,8 +82,11 @@ CMakeFiles/myRDT.dir/src/TCPSender.cpp.o
  ../include/Tool.h
  /home/wyz/temp/stopwait/src/TCPSender.cpp
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o
+ ../include/Global.h
  ../include/SRReceiver.h
  ../include/SRSender.h
+ ../include/TCPReceiver.h
+ ../include/TCPSender.h
  /home/wyz/temp/stopwait/include/DataStructure.h
  /home/wyz/temp/stopwait/include/GBNReceiver.h
  /home/wyz/temp/stopwait/include/GBNSender.h

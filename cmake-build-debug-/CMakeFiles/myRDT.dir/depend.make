@@ -81,8 +81,11 @@ CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/TCPSender.h
 CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../include/Tool.h
 CMakeFiles/myRDT.dir/src/TCPSender.cpp.o: ../src/TCPSender.cpp
 
+CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/Global.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/SRReceiver.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/SRSender.h
+CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/TCPReceiver.h
+CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/TCPSender.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/DataStructure.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/GBNReceiver.h
 CMakeFiles/myRDT.dir/src/myRDT.cpp.o: ../include/GBNSender.h
